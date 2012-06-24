@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+          "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+  <head>
+   <title>Chartparser</title>
+    <script src="srgs.js"></script>
+    <script src="chartparser.js"></script>
+    <script src="runparser.js"></script>
+    <script src="mathgrammar.js"></script>
+    <script>
+// function LOG(str) {console.log(String(str));}
+    </script>
+</head>
+
+  <body>
+    <input type="text" id="input" size="40" value="3+-4*-5-16*12">
+    <input type="checkbox" id="parsetrees" />Build parsetrees
+    <button onclick="runCharacterParser();">Parse</button>
+    <button onclick="location.reload();">Clear</button>
+    <div id="results">
+    </div>
+ </body>
+</html>

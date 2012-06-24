@@ -1,0 +1,43 @@
+body {
+
+}
+div.popup {
+    visibility: hidden;
+    position: fixed;
+    height:100%;
+    width:100%;
+    z-index: 990;
+    opacity: 0.6;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+}
+
+#googleVoice {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+#closeButton{
+    position: fixed;
+    top: 20%;
+    left: 75%;
+    color: red;
+    font-size: 2.5em;
+    background-color: black;
+    z-index: 991;
+    
+}
+#lockScreen{
+    visibility: hidden;
+    position: fixed;
+    height:100%;
+    width:100%;
+    z-index: 999;
+    opacity: 0.8;
+    background-color: red;
+    top: 0px;
+    left: 0px; 
+}
